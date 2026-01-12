@@ -1,0 +1,17 @@
+body {
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ad {
+    background: #35654d;
+    border: 5px solid #A3BC71;
+    text-align: center;
+}
+
+.cta{
+    border: 2px solid #a3bc77;
+    padding: 5px 10px;
+    background: #bc77b3;
+}

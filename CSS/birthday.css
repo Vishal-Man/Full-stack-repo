@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(rgb(49, 185, 248), pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*
+pink: #EFB0C9
+blue: #a2d2ff
+white: #ffffff
+*/
+#pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 6px solid;
+    border-color: #EFB0C9;
+}
+h1, h2, h4{
+    text-shadow: 0px 0px 1px black;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#age{
+    margin: 5px;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+} 
+
+#date {
+    margin: 5px;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fel, .clue {
+    margin: 5px;
+}
+
+.gift-box {
+    width: 600px;
+    height: 600px;
+    border: 6px solid black;
+    border-radius: 10px;
+    background-image: url(../images/gift.jfif);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#gift-img-happy:hover {
+    background-image: url(../images/space1.jpg);
+}
+
+#gift-img-look:hover {
+    background-image: url(../images/space2.jpg);
+}
+
+#gift-img-genius:hover {
+    background-image: url(../images/space1.jpg);
+}
+
+#gift-img-badass:hover {
+    background-image: url(../images/birthday.JPG);
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(../images/space1.jpg);
+}

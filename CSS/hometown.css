@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#img {
+    background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzPi5mTTFymzXm2L69B9mYRgfOgZRPMwawi28Mz_LN0GxFzKVoeCeHOLC2raOd_QaHsPyqdGw3zhV1kAUqWX3JQY3VQAI1OjPSmUDW7K-sX0idWA7xE_iUhAna96qD8buDM8O5oOg=w270-h312-n-k-no);
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+}
+
+.card {
+    display: block;
+    text-align: center;
+    background-color: rgb(251, 149, 255);
+}
+
+#point {
+    border-bottom: 4px solid black;
+}
