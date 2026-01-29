@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(141, 230, 230);
+}
+
+#outer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#inner {
+    background-color: aliceblue;
+    margin: 35px;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
