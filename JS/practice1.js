@@ -196,3 +196,45 @@ function getFirst(arr) {
 
 let rey=["c","d","a"]
 getFirst(rey || ["c","d","a"])*/
+
+/* code 47
+let myCourses = ["Learn CSS ANIs", "UI design fundamentals", "Intro to clean code"]
+function prin(arr) {
+    for (let i=0; i< arr.length; i++) {
+        console.log(arr[i])
+    }
+}
+prin(myCourses)*/
+
+/*code 48
+
+let names = localStorage.getItem("Names")
+console.log(names)*/
+
+/* code 49
+let data = [
+    {
+        player: "Jean",
+        score: 52
+    },
+    {
+        player:"Mark",
+        score: 41
+    }
+]
+let janeBtn = document.getElementById("jane-btn")
+janeBtn.addEventListener("click", funtion() {
+    console.log(data[0].score)
+})*/
+
+/* code 50
+function generateSentance(desc, arr) {
+    let b=[]
+    for(let i = 0; i<arr.length; i++) {
+         b += arr[i]
+    }
+    console.log(`
+        the ${arr.length} ${desc} are ${b}
+        `)
+}
+generateSentance("The greatest", ["I ", "am ", "an ", "SDE"])*/
