@@ -238,3 +238,118 @@ function generateSentance(desc, arr) {
         `)
 }
 generateSentance("The greatest", ["I ", "am ", "an ", "SDE"])*/
+
+/* code 51 ternary operator
+const exerciseTimeMins = 40
+
+const message = exerciseTimeMins < 30 ? 'try harder' : 'very good'
+
+console.log(message)*/
+
+/* code 52
+const exerciseTimeMins = 20
+
+const message = exerciseTimeMins < 30 ? 'try harder' : exerciseTimeMins < 60 ? 'good': 'very good'
+
+console.log(message)*/
+
+/* code 53
+const playersGuess = 3
+const correctAnswer = 6
+
+let message = playersGuess === correctAnswer ? 'Correct' : 'Wrong'
+console.log(message)*/
+
+/* code 54 
+const playersGuess = 6
+const correctAnswer = 6
+
+let message = playersGuess > correctAnswer ? 'Greater then the answer' 
+: playersGuess < correctAnswer ?  'Less than the answer' 
+: 'Correct answer'
+console.log(message)*/ 
+
+/* code 55 Switch statements
+function selectItem(item) {
+    let price = 0
+    switch(item) {
+        case 'coffee':
+            price = 2
+            break
+        case 'sandwiches':
+            price = 5
+            break
+        case 'salad':
+            price = 4
+            break
+        case 'lemon cake':
+            price = 3
+            break
+        default:
+            return `Sorry, we don't sell ${item}`
+    }
+    return `You selected ${item}. that will be $${price}`
+}
+
+console.log(selectItem('coffee'))*/
+
+/* code 56 
+const dreamHoliday = {
+    destination: 'Home',
+    activity: 'run',
+    accommidation: 'room',
+    companion:'Me'
+}
+
+const {destination, activity, accommidation, companion} = dreamHoliday
+
+console.log(`My dream destination is ${destination} to ${activity} I'd
+    sleep in ${accommidation} and hangout with ${companion}`)*/
+
+/* code 57 setTimeout()
+function displayTrafficLights(light) {
+    console.log(light)
+}
+
+setTimeout(displayTrafficLights, 3000, 'Green')
+displayTrafficLights('Red')*/
+
+/* code 58
+function logAnswer(answer, points) {
+    console.log(`The answer is ${answer} of course! ${points} for you`)
+}
+
+console.log('What is the capital of Peru')
+
+setTimeout(logAnswer,3000, 'Lima', 10)*/
+
+/* code 59 date constroctor
+const dateSnapshot = new Date()
+console.log(dateSnapshot.getFullYear())*/
+
+/* code 60 pre-increment
+let currentTicketNumber = 0
+    function getNextTicketNumber() {
+        return ++currentTicketNumber
+    }
+console.log(`Guest 1, your ticket number is: ${getNextTicketNumber()}`)
+console.log(`Guest 2, your ticket number is: ${getNextTicketNumber()}`)
+console.log(`Guest 3, your ticket number is: ${getNextTicketNumber()}`)*/
+
+/* code 61 pre-decrement
+let currentTicketNumber = 0
+    function getNextTicketNumber() {
+        return --currentTicketNumber
+    }
+console.log(`Guest 1, your ticket number is: ${getNextTicketNumber()}`)
+console.log(`Guest 2, your ticket number is: ${getNextTicketNumber()}`)
+console.log(`Guest 3, your ticket number is: ${getNextTicketNumber()}`)*/
+
+/* code 62 numaric saparators (easy for us to read in code
+does not interfear with the opt)
+const vishalBankBalance = 9_012_348_765
+console.log(vishalBankBalance)*/
+
+/* code 62 BigInt()
+const vishalBankBalance = BigInt(9_012_348_765_123-364-323)
+console.log(vishalBankBalance)*/
