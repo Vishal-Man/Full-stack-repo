@@ -1,14 +1,16 @@
-import http from "node:http"
+import http from 'node:http'
+import path from 'node:path'
+import { serveStatic } from './The Other Side/utils/serveStatic.js'
+import { sendResponse } from './The Other Side/utils/sendResponse.js'
+import fs from 'fs/promises'
+
+const PORT = 8000
 
 const __dirname = import.meta.dirname
-
-const PORT = 3001
+console.log(__dirname)
 
 const server = http.createServer(async(req, res)=>{
-    res.statusCode = 200
-    res.getHeader('Content-Type', 'text/html')
-    res.writeHead(200, {'Content-Type': 'text/html'})
-    res.end('<html><h1>The server is working with writeHead()<h1><html>')
+    await serveStatic(req, res,__dirname)
 })
 
-server.listen(PORT, ()=> console.log(`Connected on port: ${PORT}`))
+server.listen(PORT, () => console.log(`connected on port ${PORT}`))
