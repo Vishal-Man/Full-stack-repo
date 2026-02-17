@@ -1,0 +1,12 @@
+{
+  "name": "retrotech",
+  "version": "1.0.0",
+  "description": "a sample retro web to expariment with node modules",
+  "license": "ISC",
+  "author": "Vishal",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
